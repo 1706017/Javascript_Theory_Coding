@@ -1,0 +1,82 @@
+	ü What are the different primitive datatypes in JS ?
+
+	· Primitive datatypes in JS are as follows 
+	1)Numbers 
+	2)BigInt
+	3)String
+	4)Boolean
+	5)Null 
+	6)undefined 
+	
+	² Numbers we use to define integers and floating point value 
+	 
+	 Ex: let my_number = 234
+	       let my_float_number = 12.50
+	
+	 console.log(typeof my_float_number)  o/p-> Number
+	 console.log(typeof my_number) o/p-> Number 
+	
+	² BigInt is use to store values which are very large numerical value 
+	
+	· Here we need to denote with "n" at the end when defining it 
+	
+	Ex:
+	    let my_big_num = 12345678999876576653534n
+	    console.log(typeof my_big_num)
+	
+	² Boolean is use to store true or false value for the variable 
+	
+	Ex:
+	    let isLoggedIn = true
+	    let hasPermission = false 
+	
+	    console.log(typeof isLoggedIn)
+	    console.log(typeof hasPermission)
+	
+	² String represents group of characters or sequence of characters 
+	
+	 Ex: 
+	     let my_name = 'Amrit Manash'
+	     let my_degree= "Btech"
+	     let my_passion= "My passion is Learning about animal's kingdom"
+	     
+	· Note: In string we can use both single quote and double quotes 
+	· Note:  Also we can use a single quote inside double quote and vice versa 
+	· Note : we can also give multiline string using backtick symbol 
+	Ex :
+	     let my_description =`my name is amrit
+	                                           manash 
+	                                           I have done my graduation in btech `
+	
+	² Null represents intentional absence of a value 
+
+        Note: Type of Null is always object 
+	
+	Ex:
+	 let solution_as_of_now =null
+	 console.log(solution_as_of_now)   o/p-> null
+	 console.log(typeof solution_as_of_now) o/p-> object
+	
+	² Undefined when we define a variable but we do not provide value to it then by default it has undefined store to it 
+
+        Ex:
+             let my_marks
+             console.log(typeof my_marks) o/p---> undefined
+             console.log(my_marks)              o/p---> undefined
+
+	ü Which keyword allows variable redeclaration in JS ?
+
+		○  var my_num=10
+		var my_num=20
+		 console.log(my_num)  o/p---> 20
+	
+	ü Can a let variable be reassigned in JS?
+	
+		○ Yes but let do not allows redeclaration 
+		
+		○ Ex: 
+		 let my_num= 10
+		       my_num= 20
+		        console.log(my_num)  o/p---> 20
+		
+  Note : const variable can't be reassigned or redeclared and it must be initialized as soon as it is declared there itself it should be assigned with value else it will throw an error 
