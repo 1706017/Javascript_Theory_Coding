@@ -1,0 +1,27 @@
+	ü How to give single and multiline comments in JS ?
+
+	• // Single line comments
+
+	• /*This is 
+	    Multiline 
+	    Comments
+	*/ 
+	
+	ü What are keywords in JavaScript ?
+
+	• Keywords are reserved words in JS that has special meaning attached to it for the language 
+
+	• These we cannot use for naming a variable 
+
+	• Example of keywords like : if, else, else if , for, while, let, var, const etc.
+
+	ü What are identifiers and Literals ?
+
+	· Identifiers are the name given to any variable, class, method etc.
+
+	• Literals are the values given to that variable that we defined 
+
+	Ex:
+	   let my_name = 'Amrit Manash'
+	
+   here my_name is identifier and Amrit Manash is literal 
