@@ -1,0 +1,25 @@
+	ü What is JS?
+
+	• It is High Level interpreted programming language 
+	• It is case sensitive 
+	• It supports Object Oriented Programming and functional oriented programming 
+	• It is dynamically typed language that is we never declare the data type upfront the engine figures it out at runtime 
+
+	ü What is Node js ?
+
+	• It is opensource cross platform runtime that let javascript to run outside the browser mainly on servers 
+
+	ü What is the role of JS Engine ?
+
+	• It is the one responsible to execute the JS code 
+
+	• It converts the JS CODE to first byte code and then converts the byte code to binary code 
+
+	• And because of Byte code JavaScript is platform independent 
+
+	• JS CODE -----> Byte Code ------> Binary Code 
+
+	ü What is npm ?
+
+	• It stands for node package manager 
+It is the one responsible for installing libraries for Javascript 
