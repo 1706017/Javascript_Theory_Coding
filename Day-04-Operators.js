@@ -119,5 +119,5 @@ let b= false
 console.log(a && b) // it will return false because both a and b are not true
 console.log(a || b) // it will return true because at least one of a or b is true
 console.log(!a) // it will return false because a is true and ! operator negates the value of a
-console.log(!b) // it will return true because b is false and ! operator negates the value of b
+console.log(!b) // it will return true because b is false and ! operator negates the b
 
