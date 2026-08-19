@@ -1,0 +1,30 @@
+//Arithmetic Operator Practice code 
+
+let sum= 10+ 20
+console.log(sum)
+
+let diff=20-8
+console.log(diff)
+
+let prod= 2 * 3
+console.log(prod)
+
+let div= 8/2            //it is division operator which gives the quotient of the division
+console.log(div)
+
+let mod_div=10%2       //it is modulus division which gives remainder of the division
+console.log(mod_div)
+
+let pow=2**3          //it is power operator which gives the power of the number that is 2 ka power 3 = 2*2*2=8
+console.log(pow)
+
+
+Output for the above code
+==========================
+
+30
+12
+6
+4
+0
+8
