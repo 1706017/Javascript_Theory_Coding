@@ -110,3 +110,14 @@ console.log(obj1===obj3) // it will return true because obj1 and obj3 refer to t
 console.log(obj1==obj3) // it will return true because obj1 and obj3 refer to the same object
 
 
+
+//Logical Operator Practice code
+
+let a=true
+let b= false 
+
+console.log(a && b) // it will return false because both a and b are not true
+console.log(a || b) // it will return true because at least one of a or b is true
+console.log(!a) // it will return false because a is true and ! operator negates the value of a
+console.log(!b) // it will return true because b is false and ! operator negates the value of b
+
