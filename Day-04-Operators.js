@@ -19,15 +19,15 @@ let pow=2**3          //it is power operator which gives the power of the number
 console.log(pow)
 
 
-Output for the above code
-==========================
+//Output for the above code
+//==========================
 
-30
+/* 30
 12
 6
 4
 0
-8
+8 */
 
 
 
@@ -56,12 +56,34 @@ let f=5
 f%=2 //It is called complex assignment operator here it means f=f%2
 console.log(f)
 
-Output from above code 
+//Output from above code 
 =======================
 
-10
+/* 10
 11
 1
 6
 2
-1
+1 */
+
+//Relational Operator Practice code
+
+let a=10
+let b=20
+console.log(a>b) //it will return false because a is not greater than b
+console.log(a<b) //it will return true because a is less than b
+console.log(a>=b) //it will return false because a is not greater than or equal to b
+console.log(a<=b) //it will return true because a is less than or equal to b
+console.log(a==b) //it will return false because a is not equal to b
+console.log(a!=b) //it will return true because a is not equal to b
+
+//Output from the above code 
+
+
+/* false
+true
+false
+true
+false
+true */
+
