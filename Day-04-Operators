@@ -28,3 +28,40 @@ Output for the above code
 4
 0
 8
+
+
+
+//Assignment Operator Practice code
+
+let a=10
+console.log(a)  //it is called simple assignment operator which assigns the value to the variable
+
+let b=1
+b+=10  //It is called complex assignment operator here it means b=b+10
+console.log(b)
+
+let c=2
+c-=1 //It is called complex assignment operator here it means c=c-1
+console.log(c)
+
+let d=3
+d*=2 //It is called complex assignment operator here it means d=d*2
+console.log(d)
+
+let e=4
+e/=2 //It is called complex assignment operator here it means e=e/2
+console.log(e)
+
+let f=5
+f%=2 //It is called complex assignment operator here it means f=f%2
+console.log(f)
+
+Output from above code 
+=======================
+
+10
+11
+1
+6
+2
+1
