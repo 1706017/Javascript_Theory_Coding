@@ -87,3 +87,15 @@ true
 false
 true */
 
+//== operator vs === operator
+
+// == operator checks the value of the variable if the value is same then it will return true otherwise false 
+// === operator checks the value and data type of the variable if both are same then it will return true otherwise false 
+
+let a= 10
+let b= '10'
+
+console.log(a==b) // it will return true because the value of a and b is same but the data type is different
+console.log(a===b) // it will return false because the value of a and b is same but the data type is different
+
+
