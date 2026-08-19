@@ -46,3 +46,30 @@ else{
 //Output for the above code:
 
 //You got C grade
+
+
+//code for switch case statement practice code
+// here if we do not give break statement then it will execute all the cases after the matching case untill it finds the break stmt 
+let day=3
+
+switch(day)
+{
+    case 1: console.log("Today is Monday")
+            break
+    case 2: console.log("Today is Tuesday")
+            break
+    case 3: console.log("Today is Wednesday")
+            break
+    case 4: console.log("Today is Thursday")
+            break
+    case 5: console.log("Today is Friday")
+            break
+    case 6: console.log("Today is Saturday")
+            break
+    case 7: console.log("Today is Sunday")
+            break
+    default: console.log("Invalid day")
+}
+
+//Output from the above code
+//Today is Wednesday
