@@ -98,4 +98,15 @@ let b= '10'
 console.log(a==b) // it will return true because the value of a and b is same but the data type is different
 console.log(a===b) // it will return false because the value of a and b is same but the data type is different
 
+//some more examples of == vs === operator 
+
+const obj1={}
+const obj2={}
+
+console.log(obj1==obj2) // it will return false because the value of obj1 and obj2 is different
+
+const obj3=obj1
+console.log(obj1===obj3) // it will return true because obj1 and obj3 refer to the same object
+console.log(obj1==obj3) // it will return true because obj1 and obj3 refer to the same object
+
 
