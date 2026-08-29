@@ -1,0 +1,7 @@
+1) Arrays in Js is a non primitive data type use to hold multiple values in a single variable 
+2) It can hold values of different data types 
+3) It an ordered collection 
+4) Here each element which are stored in arrays are accessed through index value attached to it starting from 
+   index 0 for first element and index 1 for the second element
+
+ 
